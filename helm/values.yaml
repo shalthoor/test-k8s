@@ -1,6 +1,6 @@
-test:
+ test:
   deploymentName: hello-deployment
-image: us-central1-docker.pkg.dev/first-cicd-project/docker-repo/hello:1.0.37
+  image: us-central1-docker.pkg.dev/first-cicd-project/docker-repo/hello:1.0.37
   replicas: 2
   serviceName: hello-service
   servicetype: NodePort
