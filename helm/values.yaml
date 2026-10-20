@@ -1,4 +1,3 @@
-
 test:
   deploymentName: hello-deployment
 image: us-central1-docker.pkg.dev/first-cicd-project/docker-repo/hello:1.0.36
